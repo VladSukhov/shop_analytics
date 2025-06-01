@@ -6,7 +6,11 @@
 # Выводит статистику по количеству обработанных записей, задержкам и т.д.
 # ----------------------------------------------------------------------
 
+import sys
 import os
+# Добавляем корневую директорию проекта в путь поиска модулей
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import time
 import logging
 import argparse

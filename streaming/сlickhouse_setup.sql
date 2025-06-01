@@ -5,8 +5,7 @@
 -- --------------------------------------------------------------------
 
 -- 1) Создадим Базу
-CREATE DATABASE IF NOT EXISTS analytics
-ENGINE = Lazy;
+CREATE DATABASE IF NOT EXISTS analytics;
 
 -- 2) Таблица-факт: агрегаты покупок по категории за каждый час
 CREATE TABLE IF NOT EXISTS analytics.purchases_hourly
